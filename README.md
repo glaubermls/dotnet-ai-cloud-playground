@@ -14,7 +14,7 @@ A ideia é servir como um **laboratório de integrações com IA**, crescendo ao
 
 ## Tecnologias
 
-- .NET 8 (ASP.NET Core Minimal APIs)
+- .NET 10 (ASP.NET Core Minimal APIs)
 - C#
 - OpenAI / Azure OpenAI (planejado)
 - `HttpClientFactory`
