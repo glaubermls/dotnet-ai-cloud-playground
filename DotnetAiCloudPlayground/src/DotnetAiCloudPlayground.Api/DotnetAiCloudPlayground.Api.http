@@ -1,5 +1,61 @@
 @DotnetAiCloudPlayground.Api_HostAddress = http://localhost:5086
 
+### Health Check
+GET {{DotnetAiCloudPlayground.Api_HostAddress}}/health
+Accept: application/json
+
+###
+
+### Chat with OpenAI - Simple Question
+POST {{DotnetAiCloudPlayground.Api_HostAddress}}/chat/openai
+Content-Type: application/json
+
+{
+  "prompt": "What is the capital of France?"
+}
+
+###
+
+### Chat with OpenAI - Technical Question
+POST {{DotnetAiCloudPlayground.Api_HostAddress}}/chat/openai
+Content-Type: application/json
+
+{
+  "prompt": "Explain dependency injection in .NET in simple terms."
+}
+
+###
+
+### Chat with OpenAI - Code Generation
+POST {{DotnetAiCloudPlayground.Api_HostAddress}}/chat/openai
+Content-Type: application/json
+
+{
+  "prompt": "Write a simple C# method to calculate factorial."
+}
+
+###
+
+### Chat with OpenAI - Invalid Request (Empty Prompt)
+POST {{DotnetAiCloudPlayground.Api_HostAddress}}/chat/openai
+Content-Type: application/json
+
+{
+  "prompt": ""
+}
+
+###
+
+### Chat with OpenAI - Invalid Request (No Prompt)
+POST {{DotnetAiCloudPlayground.Api_HostAddress}}/chat/openai
+Content-Type: application/json
+
+{
+}
+
+###
+
+### Weather Forecast (Legacy)
 GET {{DotnetAiCloudPlayground.Api_HostAddress}}/weatherforecast/
 Accept: application/json
 
