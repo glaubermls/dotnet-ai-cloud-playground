@@ -1,0 +1,54 @@
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userprefs
+*.ncb
+*.aps
+*.pdb
+*.obj
+*.log
+*.bak
+*.cache
+*.scc
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+bin/
+obj/
+*.exe
+*.dll
+*.o
+*.so
+*.a
+*.lib
+*.exp
+*.ilk
+*.idb
+*.res
+*.pch
+*.ipch
+
+# Packages
+packages/
+*.nupkg
+*.snk
+
+# Rider
+.idea/
+*.sln.iml
+
+# Resharper
+*.DotSettings
+*.DotSettings.user
+
+# Test results
+TestResults/
+
+# Azure DevOps
+.azuredevops/
+
+# Other
+Thumbs.db
+Desktop.ini

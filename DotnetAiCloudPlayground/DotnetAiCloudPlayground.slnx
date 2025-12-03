@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/Files/">
+    <File Path="../README.md" />
+  </Folder>
+  <Project Path="src/DotnetAiCloudPlayground.Api/DotnetAiCloudPlayground.Api.csproj" />
+  <Project Path="src/DotnetAiCloudPlayground.Core/DotnetAiCloudPlayground.Core.csproj" />
+</Solution>
